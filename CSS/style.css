@@ -1,0 +1,128 @@
+ #header {
+    position: sticky;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #383838;
+    width: 100%;
+ }
+
+ /* Header Image */
+ #header-img {
+     width: 325px;
+     margin-left: 30px;
+ }
+
+ /* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #383838;
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    display: block;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: #000;
+  }
+
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1598103586325-59f81770b82c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    background-size: cover;
+    padding: 150px;
+    color: white;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  h1, h2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: whitesmoke;
+  }
+
+  #contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: whitesmoke;
+  }
+
+  p.card-text {
+    color: black;
+  }
+
+  #cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  #projects, #aboutMe, #contact {
+    background-color: #383838;
+    padding: 25px;
+  }
+
+  #home {
+    background-color: #383838;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+  }
+
+  #logo {
+    color:whitesmoke;
+  }
+
+  #headshot {
+    width: 350px;
+    margin-left: 150px;
+  }
+
+  #about-me-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #about-text {
+    font-size: 20px;
+    background-color: rgba(63, 120, 96, 0.4);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 25px;
+    color: black;
+  }
+
+  body {
+    background-color: #383838;
+  }
