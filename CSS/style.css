@@ -120,7 +120,15 @@
     background-size: cover;
     padding: 25px;
     border-radius: 25px;
-    color: black;
+    color: whitesmoke;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .card-img-top {
+    height: 165px;
   }
 
   body {
